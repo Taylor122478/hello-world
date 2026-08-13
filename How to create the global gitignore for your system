@@ -1,0 +1,8 @@
+# Create the file:
+touch ~/.gitignore_global
+
+# Add the file to the Git configuration
+git config --global core.excludesfile ~/.gitignore_global
+
+# Edit the file with your text editor and add your rules to it.
+git status –ignored
